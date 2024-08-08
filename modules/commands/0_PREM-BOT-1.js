@@ -60,7 +60,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "kiska bot hai")) {
-     return api.sendMessage("मेरा बॉस प्रेम बाबू है और मै उसका टकलू बाबू हूं 😒👈\n✧═════════•❁❀❁•═════════✧\nअगर आपको मेरे बॉस प्रेम बाबू से बात करनी है तो इस लिंक पे क्लीक कर के मेरे बॉस को फ्रेंड रिक्वेस्ट भेज दो जल्दी 😊✌️\n✧═════════•❁❀❁•═════════✧\nhttps://www.facebook.com/prembabu001?mibextid=ZbWKwL\n✧═════════•❁❀❁•═════════✧", threadID);
+     return api.sendMessage("मेरा बॉस फैज अंसारी है और मै उसका SHIVA BOT हूं 😒👈\n✧═════════•❁❀❁•═════════✧\nअगर आपको मेरे बॉस फैज अंसारी से बात करनी है तो इस लिंक पे क्लीक कर के मेरे बॉस को फ्रेंड रिक्वेस्ट भेज दो जल्दी 😊✌️\n✧═════════•❁❀❁•═════════✧\https://www.facebook.com/profile.php?id=61552656562989&mibextid=ZbWKwL\n✧═════════•❁❀❁•═════════✧", threadID);
    };
 
   if ((event.body.toLowerCase() == "bot admin") || (event.body.toLowerCase() == "bot ka admin kon hai")) {
@@ -180,11 +180,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   
   if (event.body.includes("Bot") == 1 ||
    (event.body.includes("bot") == 1 ||
-   (event.body.includes("Taklu") == 1 ||
-   (event.body.includes("taklu") == 1 ||
-   (event.body.includes("टकलू") == 1 ||
-   (event.body.includes("tklu") == 1 ||
-   (event.body.includes("Tklu") == 1 ||
+   (event.body.includes("Shiva") == 1 ||
+   (event.body.includes("SHIVA") == 1 ||
+   (event.body.includes("@Shiva bot") == 1 ||
+   (event.body.includes("shiva") == 1 ||
+   (event.body.includes("ShiVa") == 1 ||
    (event.body.includes("Oye") == 1 ||
    (event.body.includes("oye") == 1 ))))))))) {
     var msg = {
