@@ -79,12 +79,12 @@ module.exports.run = async function ({ event, api, Threads, Users }) {
 
                     const timeFormat = `${hours}:${minutes}:${seconds}`;
 
-                    api.sendMessage(`[⚜️] GROUP UPDATE [⚜️]\n» ${(logMessageData.video) ? 'VIDEO ' : ''}CALL HAS ENDED.\n» CALL DURATION: ${timeFormat}`, threadID);
+                    api.sendMessage(`[⚜️] GROUP UPDATE [⚜️]\n» ${(logMessageData.🤸) ? '🤸 ' : ''}🤸 HAS ENDED.\n» CALL DURATION: ${timeFormat}`, threadID);
                     
                 }
                 else if (logMessageData.joining_user) {
                     const name = await Users.getNameUser(logMessageData.joining_user);
-                    api.sendMessage(`[⚜️] GROUP UPDATE [⚜️]\n» ${name} JOINED THE ${(logMessageData.group_call_type == '1') ? 'VIDEO ' : ''}CALL.`, threadID);
+                    api.sendMessage(`[⚜️] GROUP UPDATE [⚜️]\n» ${name} 🤸 THE ${(logMessageData.group_🤸_type == '1') ? '🤸 ' : ''}🤸.`, threadID);
                 }
                 break;
             }
