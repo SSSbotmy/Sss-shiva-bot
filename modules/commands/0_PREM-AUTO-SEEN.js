@@ -25,7 +25,7 @@ module.exports. run = async ({ api, event, args }) => {
    try {
      if (args[0] == 'on') {
        fs.writeFileSync(pathFile, 'true');
-       api.sendMessage('सभी मैसेज ऑटोसिन ऑन हो गया प्रेम बॉस 🤐👈', event.threadID, event.messageID);
+       api.sendMessage('सभी मैसेज ऑटोसिन ऑन हो गया फैज बॉस 🤐👈', event.threadID, event.messageID);
      } else if (args[0] == 'off') {
        fs.writeFileSync(pathFile, 'false');
        api.sendMessage('जो वर्ड या इमोजी मेरे कमांड में नही है। उसका ऑटोसीन ऑफ कर दिया फैज बॉस 🤐🤐', event.threadID, event.messageID);
