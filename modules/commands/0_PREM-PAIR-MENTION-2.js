@@ -1,10 +1,11 @@
 ///WARNING THIS BOT IS MADE BY MR PREM BABU AGAR KOI CREADIT NAME CHANGE KREGA USKA FILE BAN HO JAYEGA //////@prem-babu3608//////////
 module.exports.config = {
-    name: "pairv2",
+    name: "pair",
     version: "7.3.1",
     hasPermssion: 0,
     credits: "PREM BABU",///@prem-babu3608
     description: "THIS BOT IS ME PREM SHARMA",
+    usePrefix: true,
     commandCategory: "MENTION PATNER",
     usages: "PAIR-2",
     cooldowns: 5, 
@@ -21,9 +22,9 @@ module.exports.onLoad = async() => {
     const { existsSync, mkdirSync } = global.nodemodule["fs-extra"];
     const { downloadFile } = global.utils;
     const dirMaterial = __dirname + `/cache/canvas/`;
-    const path = resolve(__dirname, 'cache/canvas', 'ar1.png');
+    const path = resolve(__dirname, 'cache/canvas', 'arp.png');
     if (!existsSync(dirMaterial + "canvas")) mkdirSync(dirMaterial, { recursive: true });
-    if (!existsSync(path)) await downloadFile("https://i.postimg.cc/Kj0SQ28d/ar1.jpg", path); 
+    if (!existsSync(path)) await downloadFile("https://i.imgur.com/LU1kSmX.jpeg", path); 
 }
 
 async function makeImage({ one, two }) {
@@ -33,27 +34,27 @@ async function makeImage({ one, two }) {
     const jimp = global.nodemodule["jimp"];
     const __root = path.resolve(__dirname, "cache", "canvas");
 
-    let batgiam_img = await jimp.read(__root + "/ar1.png");
+    let batgiam_img = await jimp.read(__root + "/arp.png");
     let pathImg = __root + `/batman${one}_${two}.png`;
     let avatarOne = __root + `/avt_${one}.png`;
     let avatarTwo = __root + `/avt_${two}.png`;
-    
+
     let getAvatarOne = (await axios.get(`https://graph.facebook.com/${one}/picture?width=512&height=512&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`, { responseType: 'arraybuffer' })).data;
     fs.writeFileSync(avatarOne, Buffer.from(getAvatarOne, 'utf-8'));
-    
+
     let getAvatarTwo = (await axios.get(`https://graph.facebook.com/${two}/picture?width=512&height=512&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`, { responseType: 'arraybuffer' })).data;
     fs.writeFileSync(avatarTwo, Buffer.from(getAvatarTwo, 'utf-8'));
-    
+
     let circleOne = await jimp.read(await circle(avatarOne));
     let circleTwo = await jimp.read(await circle(avatarTwo));
     batgiam_img.composite(circleOne.resize(350,350), 135, 185).composite(circleTwo.resize(350, 350), 820, 185);
-    
+
     let raw = await batgiam_img.getBufferAsync("image/png");
-    
+
     fs.writeFileSync(pathImg, raw);
     fs.unlinkSync(avatarOne);
     fs.unlinkSync(avatarTwo);
-    
+
     return pathImg;
 }
 async function circle(image) {
