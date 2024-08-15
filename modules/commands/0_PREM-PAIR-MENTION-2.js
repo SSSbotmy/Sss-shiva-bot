@@ -1,6 +1,6 @@
 ///WARNING THIS BOT IS MADE BY MR PREM BABU AGAR KOI CREADIT NAME CHANGE KREGA USKA FILE BAN HO JAYEGA //////@prem-babu3608//////////
 module.exports.config = {
-    name: "pair",
+    name: "pairv2",
     version: "7.3.1",
     hasPermssion: 0,
     credits: "PREM BABU",///@prem-babu3608
