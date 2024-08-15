@@ -3,35 +3,48 @@
     "keyActive": "",
     "DeveloperMode": false,
     "autoCreateDB": true,
-    "allowInbox": false,
+    "allowInbox": true,
     "autoClean": false,
-    "adminOnly": true,
+    "adminOnly": false,
     "keyAdminOnly": "",
     "commandDisabled": [],
     "eventDisabled": [],
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "api": "https://noobs-api.onrender.com/dipto",
-    "BOTNAME": "SHIVA❤🪽",
+    "BOTNAME": "ARMAN BABU",
     "PREFIX": "#",
-    "OTHERBOT": [],
+    "OTHERBOT": [
+        ""
+    ],
     "UNSENTVIP": [
         "100082052205053",
-        "61552656562989",
-        "100075743873101"],
+        "61552520997731",
+        "100085324852432",
+        ""
+    ],
     "GOD": [
-        "100082052205053",
-        "61552656562989",
-        "100075743873101"],
+        ""
+    ],
     "ADMINBOT": [
+        "100085324852432",
+        "100091268256909",
         "100082052205053",
+        "61552520997731",
         "61552656562989",
-        "100075743873101"],
-    "OWNER": "MR DEVIL",
-    "AGE": "23",
+        "61551589643186",
+        "61558777394570",
+        "100069135162677",
+        "100081089402257",
+        "100079626829456",
+        "100080899898916",
+        "100069584601848",
+        "61555224008836"
+    ],
+    "OWNER": "FAIZ ANSARI",
+    "AGE": "20",
     "GENDER": "MALE",
-    "FACEBOOK": "https://www.facebook.com/profile.php?id=100082052205053",
+    "FACEBOOK": "https://www.facebook.com/profile.php?id=100082052205053&mibextid=ZbWKwL",
     "AutoOffBot": "disable",
     "AutoOffBotStartSleep": "disable",
     "AutoOffBotSendMessage": "Bye everyone. i need to sleep i'll be right back at 5:00AM 🥰",
@@ -40,7 +53,7 @@
     "AutoGreetWithSticker": "enable",
     "AutoGreetSendPerHour": "1",
     "AutoPost": "disable",
-    "AutoPostText": "",
+    "AutoPostText": "༻𝐎𝐖𝐍𝐄𝐑:- FAIZ ANSARI☜ ༺ ༒𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 〠FAIZ ANSARI〠.༒ ༒𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝༒:- ☞https://www.facebook.com/profile.php?id=100082052205053&mibextid=ZbWKwL= ☜",
     "AutoPostPerHour": "1",
     "AutoPostGreet": "disable",
     "AutoPostGreetPostPerHour": "6",
@@ -51,7 +64,7 @@
     "AutoPendingGroupChat": "accept",
     "AutoBioStatus": "enable",
     "AutoBioStatusSetPerHour": "1",
-    "BioStatus": "",
+    "BioStatus": "༻𝐎𝐖𝐍𝐄𝐑:- ☞FAIZ ANSARI☜ ༺ ༒𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 〠FAIZ ANSARI〠.༒ ༒𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝༒:- ☞ https://www.facebook.com/profile.php?id=100082052205053&mibextid=ZbWKwL☜",
     "AutoLeave": "enable",
     "RandomRedditMemes": "enable",
     "RandomRedditMemesSendPerHour": "1",
@@ -62,7 +75,7 @@
             "storage": "data.sqlite"
         }
     },
-    "APPSTATEPATH": "PREM-PROJECT.json",
+    "APPSTATEPATH": "appstate.json",
     "FCAOption": {
         "forceLogin": true,
         "listenEvents": true,
@@ -71,7 +84,7 @@
         "selfListen": false,
         "userAgent": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 OPR/84.0.4316.21"
     },
-    "version": "30.0.0",
+    "version": "1.2.14",
     "help": {
         "autoUnsend": "",
         "delayUnsend": 60
@@ -79,7 +92,7 @@
     "adminUpdate": {
         "autoUnsend": true,
         "sendNoti": true,
-        "timeToUnsend": 5
+        "timeToUnsend": 10
     },
     "log": {
         "enable": true
@@ -143,7 +156,7 @@
         "APIKEY": "Meew_Ov8SwxqVjUMUJafvxWAsdeac7YAUnr"
     },
     "play": {
-        "YOUTUBE_API": "18a322322amsh480550653b0f489p119066jsnaaeeeb9f7a54",
+        "YOUTUBE_API": "AIzaSyBtiD442srhczDpcg8xbhinP423BeUFXB8",
         "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
     },
     "video": {
@@ -187,25 +200,11 @@
     "messageforrealcreator": {
         "enable": true
     },
-    "janu": {
-        "APIKEY": ""
+    "botchk": {
+        "autoUnsend": "",
+        "unsendMessageAfter": 5
     },
     "video2": {
         "YOUTUBE_API": "AIzaSyDBOpnGGz225cPwHlJQs8OMRtxOjSUm73I"
-    },
-    "earn": {
-        "cooldownTime": 43200000
-    },
-    "video3": {
-        "YOUTUBE_API": "AIzaSyDC-PYP4E1bD2_RauVJBnTSkvUNxkxSQcc"
-    },
-    "surprise": {
-        "log": true,
-        "out": "",
-        "kickAll": "",
-        "delThread": ""
-    },
-    "sortword": {
-        "APIKEY": "Meew_kB5wRAlpHhrAj0GhRzmmLHesvvTbXE"
     }
 }
