@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("morning") ||
 react.includes("MORNING")) {
 		var msg = {
-				body: `𝐕𝐄𝐑𝐘 𝐆𝐎𝐎𝐃 𝐌𝐎𝐑𝐍𝐈𝐍𝐆 𝐉𝐀𝐀𝐍😻 `,attachment: fs.createReadStream(__dirname + `/FAIZ ANSARI/morning.gif`)
+				body: `𝐕𝐄𝐑𝐘 𝐆𝐎𝐎𝐃 𝐌𝐎𝐑𝐍𝐈𝐍𝐆 𝐉𝐀𝐀𝐍😻 `,attachment: fs.createReadStream(__dirname + `/FAIZ/morning.gif`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😻", event.messageID, (err) => {}, true)
