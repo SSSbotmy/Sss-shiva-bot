@@ -3,7 +3,7 @@
 /////// WARNING => JO CREDIT NAME CHANGE KREGA USKA ID BAN KAR DIYA JAYEGA + THIS BOT IS MADE BT PREM BABU
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
-  name: "PREM-BOT-1",
+  name: "FAIZ-BOT-1",
   version: "1.0.1",
   hasPermssion: 0,
   credits: "PREM BABU",
