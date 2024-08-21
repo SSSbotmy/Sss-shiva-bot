@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "PREM-HELLO-HY",
+  name: "FAIZ-HELLO-HY",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "PREM BABU",
