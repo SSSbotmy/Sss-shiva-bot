@@ -83,7 +83,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("बोट को गाडू बोलेगा साले तेरी हाइट के जितना मेरा लन्ड है 🤬😡✌️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "boss hu tera") || (event.body.toLowerCase() == "Boss hu tera") || (event.body.toLowerCase() == "boss hu prem babu") || (event.body.toLowerCase() == "boss ki bezti kr raha takle")) {
+   if ((event.body.toLowerCase() == "boss hu tera") || (event.body.toLowerCase() == "Boss hu tera") || (event.body.toLowerCase() == "boss hu faiz ansari") || (event.body.toLowerCase() == "boss ki bezti kr raha takle")) {
      return api.sendMessage("सॉरी बॉस माफ कर दो अब नहीं करूंगा 🥺🥺🥺🙏", threadID);
    };
 
@@ -137,7 +137,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
   if ((event.body.toLowerCase() == "🙄") || (event.body.toLowerCase() == "🙄🙄")) {
-     return api.sendMessage("️ऊपर किया देख रहे हो मेरी जान 🙂🤟", threadID);
+     return api.sendMessage("️🤸‍♂️तिरछी नजरिया तोरी हाये हाये___😹😹😹👈", threadID);
    };
   
   if ((event.body.toLowerCase() == "😒") || (event.body.toLowerCase() == "😒😒")) {
