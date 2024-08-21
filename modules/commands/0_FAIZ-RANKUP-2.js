@@ -1,8 +1,9 @@
+
 module.exports.config = {
-	name: "PREM-RANKUP-2",
+	name: "FAIZ-RANKUP-2",
 	version: "3.3.1",
 	hasPermssion: 1,
-	credits: "PREM BABU",
+	credits: "PREU",
 	description: "THIS BOT IS MADE BY PREM BABU",
 	commandCategory: "LEVAL UP",
 	dependencies: {
@@ -124,3 +125,4 @@ module.exports.run = async function({ api, event, Threads, getText }) {
 	global.data.threadData.set(threadID, data);
 	return api.sendMessage(`${(data["rankup"] == true) ? getText("on") : getText("off")} ${getText("successText")}`, threadID, messageID);
                             }
+
