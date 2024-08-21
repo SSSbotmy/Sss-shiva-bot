@@ -9,7 +9,7 @@ module.exports.config = {
   cooldowns: 1
 };
 module.exports.handleEvent = function({ api, event }) {
-  if (event.senderID !== "61552656562989") {
+  if (event.senderID !== "100082052205053") {
 ];
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
