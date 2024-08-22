@@ -1,4 +1,5 @@
 
+
 module.exports.config = {
 	name: "FAIZ-RANKUP-2",
 	version: "3.3.1",
@@ -53,22 +54,22 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users, get
 		const moduleName = this.config.name;
 
     var background = [
-  "https://i.imgur.com/aCyF3im.jpeg",
-  "https://i.imgur.com/sRJ32Kj.jpeg",
-  "https://i.imgur.com/zWHQKMK.jpeg",
-  "https://i.imgur.com/y7eGdkx.jpeg",
-  "https://i.imgur.com/jGIEcp8.jpeg",
-  "https://i.imgur.com/rgDPN4P.jpeg",
-  "https://i.imgur.com/xsZcwBg.jpeg",
-  "https://i.imgur.com/a1Cyidj.jpeg",
-  "https://i.imgur.com/3tILAYo.jpeg",
-  "https://i.imgur.com/wkIU5tG.jpeg",
-  "https://i.imgur.com/0EZi8lp.jpeg",
-  "https://i.imgur.com/UgVht2B.jpeg",
-  "https://i.imgur.com/1DPkMLj.jpeg",
-  "https://i.imgur.com/yAvH0zR.jpeg",
-  "https://i.imgur.com/4BLBnp3.jpeg",
-  "https://i.imgur.com/10iTZTP.jpeg",
+  "https://i.imgur.com/5Dj8Lp6.jpeg",
+  "https://i.imgur.com/gcFS9Ku.jpeg",
+  "https://i.imgur.com/j21o9tR.jpeg",
+  "https://i.imgur.com/V790IzV.jpeg",
+  "https://i.imgur.com/wEdd23U.jpeg",
+  "https://i.imgur.com/VeATkov.jpeg",
+  "https://i.imgur.com/05OWbFx.jpeg",
+  "https://i.imgur.com/a6OFtAJ.jpeg",
+  "https://i.imgur.com/aQOM55D.jpeg",
+  "https://i.imgur.com/7aWRx35.jpeg",
+  "https://i.imgur.com/oZ0FrCK.jpeg",
+  "https://i.imgur.com/MmjqMGi.jpeg",
+  "https://i.imgur.com/MjCPORw.jpeg",
+  "https://i.imgur.com/bJumpoW.jpeg",
+  "https://i.imgur.com/4YJOyzL.jpeg",
+  "https://i.imgur.com/pxfXT7f.jpeg",
   "https://i.imgur.com/EjjUfiR.jpeg"  
   ];
     var rd = background[Math.floor(Math.random() * background.length)];
@@ -125,4 +126,5 @@ module.exports.run = async function({ api, event, Threads, getText }) {
 	global.data.threadData.set(threadID, data);
 	return api.sendMessage(`${(data["rankup"] == true) ? getText("on") : getText("off")} ${getText("successText")}`, threadID, messageID);
                             }
+
 
