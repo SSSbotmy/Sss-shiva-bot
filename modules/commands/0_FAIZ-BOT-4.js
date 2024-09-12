@@ -19,7 +19,7 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
   let yan = event.body ? event.body.toLowerCase() : '';
 
   if (yan.indexOf("bot") === 0 ||
-     (yan.indexOf("taklu") === 0 )) {
+     (yan.indexOf("Shiva") === 0 )) {
     api.setMessageReaction("💖", event.messageID, (err) => {}, true);
     api.sendTypingIndicator(event.threadID, true);
 
