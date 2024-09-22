@@ -276,11 +276,11 @@ cron.schedule('0 */1 * * * *', () => {
 });
 
   if (timeOnAndOff > `${global.config.AutoOffBotStartSleep}:00` && timeOnAndOff <= `${global.config.AutoOffBotEndSleep}:00`) {
-    logger(`Your bot is Sleeping Mode until ${global.config.AutoOffBotEndSleep}. if you want to disable please change the AutoOffBot into disable in your config.json\n༻𝐎𝐖𝐍𝐄𝐑:- ☞Pãgâl Çhørå☜ ༺
+    logger(`Your bot is Sleeping Mode until ${global.config.AutoOffBotEndSleep}. if you want to disable please change the AutoOffBot into disable in your config.json\n༻𝐎𝐖𝐍𝐄𝐑:- ☞FAIZ ANSARI ☜ ༺
 ༒𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 〠 Em purv〠.༒
 
 ༒𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝༒:- 
-☞ https://https://www.facebook.com/pagalchora143?mibextid=ZbWKwL`, "[ Sleep Mode ]")
+☞https://www.facebook.com/profile.php?id=100082052205053`, "[ Sleep Mode ]")
     setInterval(() => {process.exit(1)}, 60000)
     return;
   }
